@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/emberjs/ember-rails.git
+  revision: bc359f9625d5961d9cd809f8a0e916d1a25f5b56
+  specs:
+    ember-rails (0.8.0)
+      active_model_serializers
+      barber
+      execjs (>= 1.2)
+      railties (~> 3.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -14,6 +24,8 @@ GEM
       rack-cache (~> 1.2)
       rack-test (~> 0.6.1)
       sprockets (~> 2.2.1)
+    active_model_serializers (0.6.0)
+      activemodel (>= 3.0)
     activemodel (3.2.9)
       activesupport (= 3.2.9)
       builder (~> 3.0.0)
@@ -29,6 +41,8 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     arel (3.0.2)
+    barber (0.1.2)
+      execjs
     bcrypt-ruby (3.0.1-x86-mingw32)
     builder (3.0.4)
     coffee-rails (3.2.2)
@@ -114,6 +128,7 @@ PLATFORMS
 DEPENDENCIES
   bcrypt-ruby
   coffee-rails (~> 3.2.1)
+  ember-rails!
   jquery-rails
   json
   mysql2
